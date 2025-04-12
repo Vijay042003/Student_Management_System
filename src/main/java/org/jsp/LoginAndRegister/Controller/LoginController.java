@@ -16,8 +16,8 @@ public class LoginController {
     @PostMapping("/login")
     public String processLogin(@RequestParam("username") String username, @RequestParam("password") String password) {
         // Hardcoded default credentials
-        String defaultUsername = "Abhishek123";
-        String defaultPassword = "Abhi@123";
+        String defaultUsername = "vijay123";
+        String defaultPassword = "vijay@123";
 
         // Validate the provided credentials against the default ones
         if (username.equals(defaultUsername) && password.equals(defaultPassword)) {
